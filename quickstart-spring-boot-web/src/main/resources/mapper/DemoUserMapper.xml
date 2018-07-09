@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值习惯上设置成包名+sql映射文件名，这样就能够保证namespace的值是唯一的 -->
+<mapper namespace="org.quickstart.spring.boot.web.dao.DemoDao">
+	<!-- 在select标签中编写查询的SQL语句设置select标签的id属性为getUser，id属性值必须是唯一的，不能够重复，使用parameterType属性指明查询时使用的参数类型， 
+		resultType属性指明查询返回的结果集类型 resultType="org.guus.bean.User"就表示将查询结果封装成一个User类的对象返回 
+		User类就是users表所对应的实体类 -->
+
+	<!-- 所有列 -->
+	<sql id="Column_list">
+		id,
+		name,
+		age
+	</sql>
+
+	<resultMap id="ListTest" type="org.quickstart.spring.boot.web.entity.DemoUser">
+		<id column="id" property="id" />
+		<result column="name" property="name" />
+		<result column="age" property="age" />
+	</resultMap>
+	
+	<!-- sql片段 -->
+	<sql id="query_user_where">
+		<if test="null != name and '' != name">
+			AND demo_user.name like '%${name}%'
+		</if>
+		<if test="null != age and '' != age">
+			AND demo_user.age = ${age}
+		</if>
+		
+		<!-- 时间只能判断null != startDate，不能判断 '' != startDate-->
+		<!-- <号必须转义，使用<![CDATA[<=]]> 或者 &lt;=，大于就是&lt;-->
+		<if test="null != startDate">
+			AND MSG_EXAMINE_DIFFER.SEND_DATE <![CDATA[>=]]> #{startDate} 
+		</if>
+		<if test="null != endDate">
+			AND MSG_EXAMINE_DIFFER.SEND_DATE &lt;= #{endDate}
+		</if>
+	</sql>
+
+	<!-- 根据age查询得到一个user对象 -->
+	<select id="getUser" parameterType="int" resultMap="ListTest">
+		SELECT
+		<include refid="Column_list" />
+		FROM demo_user
+		<!-- where可以自动去掉第一个条件的and -->
+		<where>
+			<!-- sql片段引入 -->
+			<include refid="query_user_where"></include>
+		</where>
+	</select>
+	
+	<!-- 查询全部用户 -->
+	<select id="getAllUsers" resultType="org.quickstart.spring.boot.web.entity.DemoUser">
+		SELECT
+		<include refid="Column_list" />
+		FROM demo_user
+	</select>
+	
+	<!-- 添加用户 -->
+	<insert id="addUser" parameterType="org.quickstart.spring.boot.web.entity.DemoUser">
+		INSERT INTO demo_user(
+		<include refid="Column_list" />
+		) values(#{id},#{name},#{age})
+	</insert>
+
+	<!-- 删除用户 -->
+	<delete id="deleteUser" parameterType="int">
+		delete from demo_user where id=#{id}
+	</delete>
+
+	<!-- 修改用户 -->
+	<update id="updateUser" parameterType="org.quickstart.spring.boot.web.entity.DemoUser">
+		update demo_user set name=#{name},age=#{age} where id=#{id}
+	</update>
+
+</mapper>  
