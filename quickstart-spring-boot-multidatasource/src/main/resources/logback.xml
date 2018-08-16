@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<property name="LOG_FILE" value="${user.home}/logs/msgframe/spring-boot.log" />
+	<include resource="org/springframework/boot/logging/logback/base.xml" /> <!-- logback 提供的基本配置 -->
+
+	<!-- 控制台 -->
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder charset="UTF-8">
+			<!-- <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %5p %m%n</pattern> -->
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} {%thread} %-5level %logger{50}-%msg%n</pattern>
+			<charset>UTF-8</charset> <!-- 解决中文乱码问题 -->
+		</encoder>
+	</appender>
+
+	<!-- 记录到文件 (每天一个文件) -->
+	<appender name="FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${user.home}/logs/msgframe/msgframe-console.log</file><!-- 
+			最新的log文件名 -->
+		<append>true</append>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- 历史文件名 -->
+			<fileNamePattern>${user.home}/logs/msgframe/msgframe-console-%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>104857600</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<MaxHistory>30</MaxHistory><!-- 保留 30 天的日志 -->
+		</rollingPolicy>
+		<encoder>
+			<!-- <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %5p %m%n</pattern> -->
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} {%thread} %-5level %logger{50}-%msg%n</pattern>
+			<!-- <charset class="java.nio.charset.Charset">UTF-8</charset> -->
+			<charset>UTF-8</charset>  <!--解决中文乱码问题 -->
+		</encoder>
+	</appender>
+
+	<!-- <root level="DEBUG"> -->
+	<!-- <root level="INFO"> <appender-ref ref="CONSOLE" /> <appender-ref ref="FILE" 
+		/> </root> -->
+
+	<!-- 将上面两个 appender 关联到我们的项目 -->
+	<logger name="com.ai.aif.msgframe" level="debug"
+		additivity="false"> <!-- name 是项目包名，为了方便调试，输出 DEBUG 级别及其以上的log -->
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="FILE" />
+	</logger>
+
+	<!-- 其他框架的日志输出 -->
+	<logger name="org.springframework.web" level="debug" />   <!-- spring web 包下的 logger, 只输出 INFO 级别的 -->
+	<logger name="org.springframework.boot.web.filter" level="debug" />
+
+</configuration> 

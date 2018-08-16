@@ -1,3 +1,7 @@
+原项目地址
+https://gitee.com/youngzil/quickstart-all
+
+
 https://projects.spring.io/spring-boot/
 https://github.com/spring-projects/spring-boot
 
