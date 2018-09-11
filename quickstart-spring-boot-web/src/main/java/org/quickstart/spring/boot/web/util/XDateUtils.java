@@ -19,9 +19,9 @@ import java.util.TimeZone;
 public class XDateUtils {
     /** 日期格式枚举类，根据需要添加其他格式 **/
     public enum DatePattern {
-        ISO_SECOND("yyyy-MM-dd'T'HH:mm:ss", "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}$"), ISO_MINUTE("yyyy-MM-dd'T'HH:mm", "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}$"), DATE_TIME("yyyy-MM-dd HH:mm:ss",
-                "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}$"), DATE_TIME_FULL("yyyy-MM-dd HH:mm:ss,SSS",
-                        "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2},\\d{3}$"), DATE_ONLY("yyyy-MM-dd", "^\\d{4}-\\d{2}-\\d{2}$"), YEAR_MONTH("yyyy-MM", "^\\d{4}-\\d{2}$");
+    ISO_SECOND("yyyy-MM-dd'T'HH:mm:ss", "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}$"), ISO_MINUTE("yyyy-MM-dd'T'HH:mm", "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}$"), DATE_TIME("yyyy-MM-dd HH:mm:ss",
+            "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}$"), DATE_TIME_FULL("yyyy-MM-dd HH:mm:ss,SSS",
+                    "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2},\\d{3}$"), DATE_ONLY("yyyy-MM-dd", "^\\d{4}-\\d{2}-\\d{2}$"), YEAR_MONTH("yyyy-MM", "^\\d{4}-\\d{2}$");
 
         DatePattern(String pattern, String regex) {
             this.pattern = pattern;

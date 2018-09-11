@@ -20,7 +20,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
+import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
+import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 /**
@@ -32,12 +34,24 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
  */
 @Configuration
 @MapperScan(basePackages = {"com.ai.aif.msgframe.dao"})
-//@MapperScan(basePackages = "com.ai.aif.msgframe.dao", sqlSessionTemplateRef = "primarySqlSessionTemplate",sqlSessionFactoryRef = "primarySqlSessionFactory")
+// @MapperScan(basePackages = "com.ai.aif.msgframe.dao", sqlSessionTemplateRef = "primarySqlSessionTemplate",sqlSessionFactoryRef = "primarySqlSessionFactory")
 public class PrimaryDataSourceConfig {
+
+    /* @Bean
+    public DataSource dataSource(){
+        DruidDataSource ds = new DruidDataSource();
+        ds.setDriverClassName(driverClassName);
+        ds.setUrl(url);
+        ds.setUsername(username);
+        ds.setPassword(password);
+        ds.setMaxActive(maxActive);
+        ds.setMinIdle(0);
+        return ds;
+    }*/
 
     @Primary
     @Bean(name = "primaryDataSource")
-    @ConfigurationProperties(prefix = "spring.datasource")// application.properteis中对应属性的前缀
+    @ConfigurationProperties(prefix = "spring.datasource") // application.properteis中对应属性的前缀
     public DataSource dataSource() {
         return DataSourceBuilder.create().build();
     }
@@ -49,6 +63,14 @@ public class PrimaryDataSourceConfig {
         bean.setDataSource(dataSource);
         bean.setTypeAliasesPackage("com.ai.aif.msgframe.entity");
         bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath*:mapper/*.xml"));
+
+        ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
+        // 加载匹配到的xml映射配置
+        // Resource[] resources = resolver.getResources("classpath*:com/nd/mathlearning/server/*/dao/mapper/*.xml");
+        // bean.setMapperLocations(resources);
+        // 加载Mybatis配置
+        bean.setConfigLocation(resolver.getResource("classpath:mybatis-config.xml"));
+
         return bean.getObject();
     }
 

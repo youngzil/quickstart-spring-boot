@@ -20,9 +20,9 @@ public class VelocityTest extends BasicTest {
         model.put("message", "这是测试的内容。。。");
         model.put("toUserName", "张三");
         model.put("fromUserName", "老许");
-//        SpringBoot1或Spring4
-//        String content = VelocityEngineUtils.mergeTemplateIntoString(velocityEngine, "welcome.vm", "UTF-8", model);
-//        logger.debug(content);
+        // SpringBoot1或Spring4
+        // String content = VelocityEngineUtils.mergeTemplateIntoString(velocityEngine, "welcome.vm", "UTF-8", model);
+        // logger.debug(content);
     }
 
 }

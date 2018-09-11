@@ -21,14 +21,14 @@ import org.springframework.web.client.ResponseErrorHandler;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * HttpTest 
- *  
+ * HttpTest
+ * 
  * @author：yangzl@asiainfo.com
- * @2018年7月10日 下午8:32:12 
+ * @2018年7月10日 下午8:32:12
  * @since 1.0
  */
 public class HttpTest {
-    
+
     public static void main(String[] args) {
         RestTemplate restTemplate = new RestTemplate();
         ResponseErrorHandler responseErrorHandler = new ResponseErrorHandler() {
@@ -60,7 +60,7 @@ public class HttpTest {
         String.class 是可以修改的，其实本质上就是在指定反序列化对象类型，这取决于你要怎么解析请求返回的参数*/
 
         // 获取返回的header
-         List<String> val = resp.getHeaders().get("Set-Cookie");
+        List<String> val = resp.getHeaders().get("Set-Cookie");
 
         // 获得返回值
         IPassResponseData responseData = resp.getBody();

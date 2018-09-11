@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<!-- <parent> -->
 	<!-- <groupId>org.springframework.boot</groupId> -->
@@ -100,12 +98,8 @@
 
 
 
-		<!--<dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-integration</artifactId> 
-			<scope>compile</scope> </dependency> <dependency> <groupId>org.springframework.integration</groupId> 
-			<artifactId>spring-integration-kafka</artifactId> <version>2.0.1.RELEASE</version> 
-			<scope>compile</scope> </dependency> <dependency> <groupId>org.springframework.integration</groupId> 
-			<artifactId>spring-integration-core</artifactId> <version>4.3.1.RELEASE</version> 
-			<scope>compile</scope> </dependency> -->
+		<!--<dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-integration</artifactId> <scope>compile</scope> </dependency> <dependency> <groupId>org.springframework.integration</groupId> <artifactId>spring-integration-kafka</artifactId> <version>2.0.1.RELEASE</version> 
+			<scope>compile</scope> </dependency> <dependency> <groupId>org.springframework.integration</groupId> <artifactId>spring-integration-core</artifactId> <version>4.3.1.RELEASE</version> <scope>compile</scope> </dependency> -->
 
 
 		<dependency>
@@ -240,6 +234,19 @@
 			<artifactId>spring-kafka</artifactId>
 			<version>1.3.0.RELEASE</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.8</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+
 
 	</dependencies>
 
@@ -460,8 +467,7 @@
 
 
 		<!--配置打包时不过滤非java文件开始 -->
-		<!--说明，在进行模块化开发打jar包时，maven会将非java文件过滤掉， xml,properties配置文件等，但是这些文件又是必需的， 
-			使用此配置可以在打包时将不会过滤这些必需的配置文件。 -->
+		<!--说明，在进行模块化开发打jar包时，maven会将非java文件过滤掉， xml,properties配置文件等，但是这些文件又是必需的， 使用此配置可以在打包时将不会过滤这些必需的配置文件。 -->
 		<resources>
 			<resource>
 				<directory>src/main/java</directory>
@@ -480,8 +486,7 @@
 				<filtering>false</filtering>
 			</resource>
 
-			<!-- Filter jdbc.properties & mail.properties. NOTE: We don't filter applicationContext-infrastructure.xml, 
-				let it go with spring's resource process mechanism. -->
+			<!-- Filter jdbc.properties & mail.properties. NOTE: We don't filter applicationContext-infrastructure.xml, let it go with spring's resource process mechanism. -->
 			<resource>
 				<directory>src/main/resources</directory>
 				<filtering>true</filtering>
