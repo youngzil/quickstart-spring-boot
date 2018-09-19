@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+  <classPathEntry location="/Users/yangzl/git/fast-osd-demp/cm-osd-server/mysql-connector-java-5.1.16.jar" />
+  <context id="context1" >
+    <plugin type="org.mybatis.generator.aicloud.codegen.mybatis3.plugin.CriteriaPackageRenamePlugin" >
+     <property name="targetProject" value="../cm-osd-server/src/main/java" />
+      <property name="targetPackage" value="com.chinamobile.zj.server.criteria" />
+    </plugin>
+    <plugin type="org.mybatis.generator.aicloud.codegen.mybatis3.plugin.HandlerGenerator" >
+      <property name="targetProject" value="../cm-osd-server/src/main/java" />
+      <property name="targetPackage" value="com.chinamobile.zj.server.handler" />
+      <property name="isGenerateMethod" value="true" />
+    </plugin>
+    <commentGenerator >
+      <property name="suppressDate" value="true" />
+      <property name="suppressAllComments" value="true" />
+    </commentGenerator>
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://10.11.20.101:3666/csf" userId="csf" password="csf" />
+    <javaModelGenerator targetPackage="com.chinamobile.zj.server.entity" targetProject="../cm-osd-server/src/main/java" />
+    <sqlMapGenerator targetPackage="mybatis.mapper" targetProject="../cm-osd-server/src/main/resources" />
+    <javaClientGenerator targetPackage="com.chinamobile.zj.server.mapper" targetProject="../cm-osd-server/src/main/java" type="XMLMAPPER" />
+    <table tableName="mobile" domainObjectName="Mobile">
+    </table>
+     <table tableName="package" domainObjectName="Package">
+    </table>
+     <table tableName="mobile_package" domainObjectName="MobilePackage">
+    </table>
+     <table tableName="odf_example" domainObjectName="OdfExample">
+    </table>
+  </context>
+</generatorConfiguration>

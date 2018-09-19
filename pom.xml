@@ -13,17 +13,17 @@
 	<name>${project.artifactId}-${project.version}</name>
 	<url>http://maven.apache.org</url>
 	<description>Demo project for Spring Boot Admin</description>
-	
+
 	<properties>
 	</properties>
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-dependencies</artifactId>
-				<version>1.5.15.RELEASE</version>
-<!-- 				<version>2.0.2.RELEASE</version> -->
+				<version>1.5.16.RELEASE</version>
+				<!-- <version>2.0.2.RELEASE</version> -->
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -45,12 +45,14 @@
 
 	</dependencies>
 
-  <modules>
-    <module>quickstart-spring-boot-web</module>
-    <module>quickstart-spring-boot-admin</module>
-    <module>quickstart-spring-boot-actuator</module>
-    <module>quickstart-spring-boot-kafka</module>
-    <module>quickstart-spring-boot-multidatasource</module>
-  </modules>
-  
+	<modules>
+		<module>quickstart-spring-boot-web</module>
+		<module>quickstart-spring-boot-admin</module>
+		<module>quickstart-spring-boot-actuator</module>
+		<module>quickstart-spring-boot-kafka</module>
+		<module>quickstart-spring-boot-multidatasource</module>
+		<module>quickstart-spring-boot-mybatis-generator</module>
+		<module>quickstart-spring-boot-web-example</module>
+	</modules>
+
 </project>
