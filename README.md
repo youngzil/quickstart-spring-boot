@@ -15,6 +15,7 @@ https://github.com/roncoo/spring-boot-demo
 http://start.spring.io/
 
 http://www.jianshu.com/nb/17096272
+https://github.com/lenve/JavaEETest
 
 
 

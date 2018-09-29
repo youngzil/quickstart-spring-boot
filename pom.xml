@@ -53,6 +53,7 @@
 		<module>quickstart-spring-boot-multidatasource</module>
 		<module>quickstart-spring-boot-mybatis-generator</module>
 		<module>quickstart-spring-boot-web-example</module>
-	</modules>
+    <module>quickstart-spring-boot-websocket</module>
+  </modules>
 
 </project>
