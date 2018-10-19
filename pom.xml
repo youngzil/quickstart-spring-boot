@@ -54,6 +54,7 @@
 		<module>quickstart-spring-boot-mybatis-generator</module>
 		<module>quickstart-spring-boot-web-example</module>
     <module>quickstart-spring-boot-websocket</module>
+    <module>quickstart-spring-boot-websocket-client</module>
   </modules>
 
 </project>

@@ -18,7 +18,6 @@ http://www.jianshu.com/nb/17096272
 https://github.com/lenve/JavaEETest
 
 
-
 通过mvn clean package命令打包应用程序
 通过命令java -jar target/bookpub-0.0.1-SNAPSHOT.jar运行程序
 
