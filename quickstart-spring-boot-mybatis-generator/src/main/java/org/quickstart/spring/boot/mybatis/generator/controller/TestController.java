@@ -15,29 +15,29 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * TestController 
- *  
+ * TestController
+ * 
  * @author：yangzl@asiainfo.com
- * @2018年9月19日 下午1:34:49 
+ * @2018年9月19日 下午1:34:49
  * @since 1.0
  */
 @RestController
 public class TestController {
 
-//    @Autowired
-//    private ClsMapper clsMapper;
-//    @Autowired
-//    private StudentMapper studentMapper;
+    // @Autowired
+    // private ClsMapper clsMapper;
+    // @Autowired
+    // private StudentMapper studentMapper;
 
     @RequestMapping("test.do")
     public Map<String, Object> test() {
 
-//        Student student = studentMapper.selectByPrimaryKey(1);
-//        Cls cls = clsMapper.selectByPrimaryKey(student.getCid());
+        // Student student = studentMapper.selectByPrimaryKey(1);
+        // Cls cls = clsMapper.selectByPrimaryKey(student.getCid());
 
         Map<String, Object> map = new HashMap<String, Object>();
-//        map.put("student", student);
-//        map.put("cls", cls);
+        // map.put("student", student);
+        // map.put("cls", cls);
 
         return map;
     }

@@ -22,14 +22,12 @@ import org.springframework.core.type.AnnotationMetadata;
 public class SomeBeanConfigurationSelector implements ImportSelector {
     @Override
     public String[] selectImports(AnnotationMetadata importingClassMetadata) {
-        AnnotationAttributes attributes =
-                AnnotationAttributes.fromMap(
-                        importingClassMetadata.getAnnotationAttributes(EnableSomeBeansSelector.class.getName(), false));
+        AnnotationAttributes attributes = AnnotationAttributes.fromMap(importingClassMetadata.getAnnotationAttributes(EnableSomeBeansSelector.class.getName(), false));
         String criteria = attributes.getString("criteria");
         if (criteria.equals("default")) {
-            return new String[]{"enableannot.selector.SomeBeanConfigurationDefault"};
-        }else {
-            return new String[]{"enableannot.selector.SomeBeanConfigurationType1"};
+            return new String[] {"enableannot.selector.SomeBeanConfigurationDefault"};
+        } else {
+            return new String[] {"enableannot.selector.SomeBeanConfigurationType1"};
         }
     }
 }

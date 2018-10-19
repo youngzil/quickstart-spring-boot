@@ -13,13 +13,13 @@ public class LogWebSocketHandler extends TextWebSocketHandler {
     private SimpMessagingTemplate template;
 
     public LogWebSocketHandler(SimpMessagingTemplate template) {
-        //this.template = template;
+        // this.template = template;
         System.out.println("初始化 handler");
     }
 
     @Override
     protected void handleTextMessage(WebSocketSession session, TextMessage message) throws Exception {
-        //super.handleTextMessage(session, message);
+        // super.handleTextMessage(session, message);
         String text = message.getPayload(); // 获取提交过来的消息
         System.out.println("handMessage:" + text);
         // template.convertAndSend("/topic/getLog", text); // 这里用于广播

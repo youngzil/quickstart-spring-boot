@@ -25,7 +25,7 @@ public class WSClient {
     }
 
     @OnClose
-    public void onClose(Session session){
-        System.out.println("websocket连接关闭:"+session.getId());
+    public void onClose(Session session) {
+        System.out.println("websocket连接关闭:" + session.getId());
     }
 }

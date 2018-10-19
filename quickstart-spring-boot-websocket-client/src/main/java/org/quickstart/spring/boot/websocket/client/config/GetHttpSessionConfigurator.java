@@ -14,17 +14,15 @@ import java.util.Enumeration;
  */
 
 /**
- * 解决websocket获取不到session的问题
- * 参考：http://www.cnblogs.com/jarviswhj/p/4227559.html
- *       http://www.cnblogs.com/zhaoww/p/5119706.html
+ * 解决websocket获取不到session的问题 参考：http://www.cnblogs.com/jarviswhj/p/4227559.html http://www.cnblogs.com/zhaoww/p/5119706.html
  */
 public class GetHttpSessionConfigurator extends ServerEndpointConfig.Configurator {
     @Override
     public void modifyHandshake(ServerEndpointConfig sec, HandshakeRequest request, HandshakeResponse response) {
-        //super.modifyHandshake(sec, request, response);
-        HttpSession httpSession = (HttpSession)request.getHttpSession();
-        //解决httpSession为null的情况
-        if (httpSession == null){
+        // super.modifyHandshake(sec, request, response);
+        HttpSession httpSession = (HttpSession) request.getHttpSession();
+        // 解决httpSession为null的情况
+        if (httpSession == null) {
             httpSession = new HttpSession() {
                 @Override
                 public long getCreationTime() {
@@ -112,6 +110,6 @@ public class GetHttpSessionConfigurator extends ServerEndpointConfig.Configurato
                 }
             };
         }
-        sec.getUserProperties().put(HttpSession.class.getName(),httpSession);
+        sec.getUserProperties().put(HttpSession.class.getName(), httpSession);
     }
 }

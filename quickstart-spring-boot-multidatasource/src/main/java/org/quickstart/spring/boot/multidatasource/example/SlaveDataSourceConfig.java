@@ -23,10 +23,10 @@ import org.springframework.context.annotation.Primary;
  * @2018年8月14日 下午7:48:14
  * @since 1.0
  */
- @Configuration
+@Configuration
 public class SlaveDataSourceConfig {
 
-     @Primary
+    @Primary
     @Bean(name = "ds1")
     @ConfigurationProperties(prefix = "spring.datasource.db1") // application.properteis中对应属性的前缀
     public DataSource dataSource1() {

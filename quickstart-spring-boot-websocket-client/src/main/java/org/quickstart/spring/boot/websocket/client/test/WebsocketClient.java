@@ -18,9 +18,10 @@ import java.net.URISyntaxException;
  */
 public class WebsocketClient {
     public static WebSocketClient client;
+
     public static void main(String[] args) {
         try {
-            client = new WebSocketClient(new URI("ws://localhost:9090/websocket"),new Draft_6455()) {
+            client = new WebSocketClient(new URI("ws://localhost:9090/websocket"), new Draft_6455()) {
                 @Override
                 public void onOpen(ServerHandshake serverHandshake) {
                     System.out.println("打开链接");
@@ -28,7 +29,7 @@ public class WebsocketClient {
 
                 @Override
                 public void onMessage(String s) {
-                    System.out.println("收到消息"+s);
+                    System.out.println("收到消息" + s);
                 }
 
                 @Override
@@ -48,7 +49,7 @@ public class WebsocketClient {
 
         client.connect();
         System.out.println(client.getDraft());
-       while(!client.getReadyState().equals(WebSocket.READYSTATE.OPEN)){
+        while (!client.getReadyState().equals(WebSocket.READYSTATE.OPEN)) {
             System.out.println("还没有打开");
         }
         System.out.println("打开了");
@@ -61,8 +62,7 @@ public class WebsocketClient {
         client.close();
     }
 
-
-    public static void send(byte[] bytes){
+    public static void send(byte[] bytes) {
         client.send(bytes);
     }
 

@@ -16,13 +16,13 @@ import javax.servlet.http.HttpSession;
 @RestController
 @RequestMapping("/test")
 public class TestController {
-    @RequestMapping(value = "/testSession",method = RequestMethod.GET)
-    public JSONObject testSession(HttpServletRequest request, HttpServletResponse response){
+    @RequestMapping(value = "/testSession", method = RequestMethod.GET)
+    public JSONObject testSession(HttpServletRequest request, HttpServletResponse response) {
         System.out.println("session test");
         HttpSession session = request.getSession();
-        System.out.println("the session is : "+session.getId());
+        System.out.println("the session is : " + session.getId());
         Cookie[] cookies = request.getCookies();
-        System.out.println("cookies is : "+JSONObject.toJSON(cookies));
+        System.out.println("cookies is : " + JSONObject.toJSON(cookies));
         JSONObject json = new JSONObject();
         json.put("success", "session test .");
         return json;

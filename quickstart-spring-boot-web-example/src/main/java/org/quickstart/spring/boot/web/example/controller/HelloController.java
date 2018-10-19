@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping(value = "/hello")
 public class HelloController {
-    
+
     // http://localhost:8081/hello/sayHello
     // @RequestMapping(value = "/hello", method = RequestMethod.GET)
     @GetMapping(value = "/sayHello")

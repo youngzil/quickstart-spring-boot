@@ -19,13 +19,11 @@ import java.util.Map;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(
-        entityManagerFactoryRef="entityManagerFactoryPrimary",
-        transactionManagerRef="transactionManagerPrimary",
-        basePackages= { "com.didispace.domain.p" }) //设置Repository所在位置
+@EnableJpaRepositories(entityManagerFactoryRef = "entityManagerFactoryPrimary", transactionManagerRef = "transactionManagerPrimary", basePackages = {"com.didispace.domain.p"}) // 设置Repository所在位置
 public class PrimaryConfig {
 
-    @Autowired @Qualifier("primaryDataSource")
+    @Autowired
+    @Qualifier("primaryDataSource")
     private DataSource primaryDataSource;
 
     @Primary
@@ -36,13 +34,9 @@ public class PrimaryConfig {
 
     @Primary
     @Bean(name = "entityManagerFactoryPrimary")
-    public LocalContainerEntityManagerFactoryBean entityManagerFactoryPrimary (EntityManagerFactoryBuilder builder) {
-        return builder
-                .dataSource(primaryDataSource)
-                .properties(getVendorProperties(primaryDataSource))
-                .packages("com.didispace.domain.p") //设置实体类所在位置
-                .persistenceUnit("primaryPersistenceUnit")
-                .build();
+    public LocalContainerEntityManagerFactoryBean entityManagerFactoryPrimary(EntityManagerFactoryBuilder builder) {
+        return builder.dataSource(primaryDataSource).properties(getVendorProperties(primaryDataSource)).packages("com.didispace.domain.p") // 设置实体类所在位置
+                .persistenceUnit("primaryPersistenceUnit").build();
     }
 
     @Autowired

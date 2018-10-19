@@ -2,7 +2,6 @@ package org.quickstart.spring.boot.multidatasource.example3.domain.s;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-
 /**
  * @author 程序猿DD
  * @version 1.0.0
@@ -10,6 +9,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @blog http://blog.didispace.com
  */
 public interface MessageRepository extends JpaRepository<Message, Long> {
-
 
 }
