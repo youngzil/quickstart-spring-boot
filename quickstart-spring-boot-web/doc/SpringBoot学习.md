@@ -9,6 +9,8 @@ SpringBoot提供了SpringApplicationRunListener接口，来在ApplicationContete
 
 
 
+说到 Java 微服务，不得不提及 Spring Boot，它已经变得非常流行。Spring Boot 和 Spring 也是基于 Java，是 Jakarta EE 的竞争对手。Spring Boot 采用了 Dropwizard 和 Pivotal 的“fat jar”概念。Pivotal 是 Spring Boot 背后的公司，正在推动“云原生”一词，这个词最初是由 Netflix 发明的，目前已经在市场上得到广泛使用。
+
 
 
 SpringBoot属性配置、读取等

@@ -16,6 +16,9 @@ http://start.spring.io/
 
 http://www.jianshu.com/nb/17096272
 https://github.com/lenve/JavaEETest
+https://github.com/cmlbeliever/SpringBootLearning
+https://github.com/chasdream/spring-boot
+
 
 
 通过mvn clean package命令打包应用程序

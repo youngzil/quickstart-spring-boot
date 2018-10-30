@@ -1,3 +1,6 @@
+websocket服务：后台 + 前台
+
+
 后台实现websocket有两种方式：使用继承类、使用注解；注解方式比较方便，一下代码中使用注解方式来进行演示。
 
 声明websocket地址类似Spring MVC中的@controller注解类似，websocket使用@ServerEndpoint来进行声明接口：@ServerEndpoint(value="/websocket/{paraName}") ; 其中 “ { } ”用来表示带参数的连接，如果需要获取{}中的参数在参数列表中增加：@PathParam("paraName") Integer userId 。则连接地址形如：ws://localhost:8080/project-name/websocket/8，其中每个连接可以设置不同的paraName的值。
