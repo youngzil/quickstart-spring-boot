@@ -61,6 +61,25 @@ public class SpringBootStartApplication extends SpringBootServletInitializer {
         return builder.sources(Application.class);
     }
 }
+
+或者合并起来
+
+@EnableAutoConfiguration
+@SpringBootApplication
+public class App extends SpringBootServletInitializer {
+
+    public static void main(String[] args) {
+        SpringApplication.run(App.class, args);
+    }
+
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+        // 注意这里要指向原先用main方法执行的Application启动类
+        return builder.sources(App.class);
+    }
+
+}
+
 五、打包部署
 在项目根目录下（即包含pom.xml的目录），在命令行里输入： 
 mvn clean package即可， 等待打包完成，出现[INFO] BUILD SUCCESS即为打包成功。 
