@@ -15,7 +15,7 @@ import org.quickstart.spring.boot.druid.example.model.Account;
 /**
  * IAccountService 
  *  
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年11月8日 下午7:07:06 
  * @since 1.0
  */

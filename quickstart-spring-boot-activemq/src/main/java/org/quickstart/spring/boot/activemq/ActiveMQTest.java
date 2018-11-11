@@ -22,7 +22,7 @@ import org.springframework.stereotype.Component;
 /**
  * ActiveMQTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年10月30日 下午5:15:12
  * @since 1.0
  */

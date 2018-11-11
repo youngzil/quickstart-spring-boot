@@ -35,7 +35,7 @@ import org.springframework.kafka.listener.ConcurrentMessageListenerContainer;
  *                       public void taskCmd(ConsumerRecord<?, ?> record) { Object message = record.value(); logger.info("收到管理平台命令:" + message); }
  * 
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月9日 下午10:33:18
  * @since 1.0
  */
@@ -50,7 +50,7 @@ public class KafkaConsumer {
      * @Description:
      * @return Map<String,Object>
      * @Exception
-     * @author：yangzl@asiainfo.com
+     * @author：youngzil@163.com
      * @2017年11月9日 下午10:34:25
      * @since 1.0
      */

@@ -15,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 /**
  * OperationLog
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年5月18日 上午9:50:42
  * @since 1.0
  */

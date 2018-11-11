@@ -21,7 +21,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * UserControllerTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年7月6日 下午3:01:02
  * @version 1.0
  */

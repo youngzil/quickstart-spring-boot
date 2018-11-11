@@ -22,7 +22,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 /**
  * UserControllerTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年7月6日 下午3:01:02
  * @version 1.0
  */

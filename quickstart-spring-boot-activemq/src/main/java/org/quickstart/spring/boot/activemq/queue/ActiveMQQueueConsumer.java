@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 /**
  * ActiveMQQueueConsumer ActiveMQ队列消息消费者
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年10月30日 下午5:12:36
  * @since 1.0
  */

@@ -11,7 +11,7 @@ package org.quickstart.spring.boot.web.http;
 /**
  * IPassResponseData
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年7月10日 上午11:04:50
  * @since 1.0
  */

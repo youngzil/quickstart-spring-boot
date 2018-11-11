@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * HelloController
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年7月8日 下午4:24:33
  * @version 1.0
  */

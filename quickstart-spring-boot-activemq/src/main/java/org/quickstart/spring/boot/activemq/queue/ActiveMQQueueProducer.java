@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
 /**
  * ActiveMQQueueProducer ActiveMQ消息生产者
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年10月30日 下午5:09:38
  * @since 1.0
  */

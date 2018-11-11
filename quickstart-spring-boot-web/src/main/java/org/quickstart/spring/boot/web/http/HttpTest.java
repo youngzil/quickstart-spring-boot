@@ -23,7 +23,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * HttpTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年7月10日 下午8:32:12
  * @since 1.0
  */

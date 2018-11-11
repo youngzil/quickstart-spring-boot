@@ -22,7 +22,7 @@ import org.springframework.web.context.request.NativeWebRequest;
 /**
  * ControllerAdvice
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年7月8日 下午4:32:27
  * @version 1.0
  */

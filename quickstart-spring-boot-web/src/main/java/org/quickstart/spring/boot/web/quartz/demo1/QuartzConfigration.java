@@ -18,7 +18,7 @@ import org.springframework.scheduling.quartz.SchedulerFactoryBean;
 /**
  * QuartzConfigration
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年8月5日 下午4:28:25
  * @version 2.0
  */

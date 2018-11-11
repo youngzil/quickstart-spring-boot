@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
 /**
  * ScheduleTask
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年7月5日 上午11:09:46
  * @version 1.0
  */

@@ -22,7 +22,7 @@ import org.springframework.stereotype.Service;
 /**
  * QuartzEventServiceImpl
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年8月5日 下午4:58:40
  * @version 2.0
  */

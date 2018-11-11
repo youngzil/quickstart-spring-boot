@@ -22,7 +22,7 @@ import org.springframework.core.io.support.ResourcePatternResolver;
 /**
  * ResourceTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年9月11日 下午9:25:38
  * @since 1.0
  */

@@ -28,7 +28,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 /**
  * MybatisDbAConfig
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年8月14日 下午7:49:29
  * @since 1.0
  */

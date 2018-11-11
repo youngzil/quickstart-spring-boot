@@ -18,7 +18,7 @@ import org.springframework.kafka.annotation.KafkaListener;
 /**
  * Listener
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月10日 下午12:15:35
  * @since 1.0
  */

@@ -28,7 +28,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 /**
  * LoggingAspect
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年4月11日 下午5:11:16
  * @since 1.0
  */
@@ -53,7 +53,7 @@ public class LoggingAspect {
      * @return
      * @throws Throwable Object
      * @Exception
-     * @author：yangzl@asiainfo.com
+     * @author：youngzil@163.com
      * @2018年4月11日 下午5:32:23
      * @since 1.0
      */

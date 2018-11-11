@@ -21,7 +21,7 @@ import org.springframework.stereotype.Repository;
 /**
  * AccountDaoImpl 
  *  
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年11月8日 下午7:07:42 
  * @since 1.0
  */

@@ -15,7 +15,7 @@ import org.quickstart.spring.boot.web.entity.DemoUser;
 /**
  * DemoService
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年7月5日 下午5:16:35
  * @version 1.0
  */

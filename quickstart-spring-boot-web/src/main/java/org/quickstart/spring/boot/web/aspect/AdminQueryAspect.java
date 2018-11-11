@@ -22,7 +22,7 @@ import org.springframework.stereotype.Service;
 /**
  * AdminQueryAspect
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年8月2日 下午3:24:45
  * @version 2.0
  */

@@ -14,7 +14,7 @@ import org.springframework.kafka.listener.MessageListener;
 /**
  * KafkaConsumerTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月10日 下午2:04:11
  * @since 1.0
  */

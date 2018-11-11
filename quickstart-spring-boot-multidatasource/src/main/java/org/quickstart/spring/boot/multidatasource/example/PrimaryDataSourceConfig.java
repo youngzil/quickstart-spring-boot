@@ -28,7 +28,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 /**
  * DataSourceConfig
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年8月15日 下午9:56:24
  * @since 1.0
  */

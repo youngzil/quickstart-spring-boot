@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
 /**
  * ExecutorClient
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年10月12日 上午11:05:55
  * @since 1.0
  */

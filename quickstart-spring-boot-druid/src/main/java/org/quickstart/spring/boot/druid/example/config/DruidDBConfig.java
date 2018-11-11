@@ -23,7 +23,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 /**
  * DruidDBConfig
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年11月8日 下午7:01:07
  * @since 1.0
  */

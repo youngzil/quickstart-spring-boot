@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 /**
  * DemoUser
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年7月5日 下午6:35:22
  * @version 1.0
  */

@@ -17,7 +17,7 @@ import java.lang.annotation.Target;
 /**
  * AdminQueryMethod
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年8月2日 下午3:21:51
  * @version 2.0
  */

@@ -16,7 +16,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * App
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年5月7日 下午12:14:46
  * @version 1.0
  */

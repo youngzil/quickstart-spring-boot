@@ -14,7 +14,7 @@ import static org.hamcrest.Matchers.equalTo;
 /**
  * TestEnableWithSelectorAnnotationsType1 
  *  
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年9月22日 下午11:27:13 
  * @since 1.0
  */

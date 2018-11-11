@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 /**
  * ActiveMQTopicSubscriber ActiveMQ主题消息订阅者
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年10月30日 下午5:14:34
  * @since 1.0
  */

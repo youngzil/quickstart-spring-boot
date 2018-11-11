@@ -16,7 +16,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 /**
  * ApplicationTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年1月17日 下午12:21:32
  * @since 1.0
  */

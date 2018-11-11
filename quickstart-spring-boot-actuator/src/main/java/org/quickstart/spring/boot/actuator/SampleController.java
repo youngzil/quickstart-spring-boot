@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * SampleController
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年12月7日 下午8:31:28
  * @since 1.0
  */

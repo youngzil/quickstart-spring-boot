@@ -22,7 +22,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 /**
  * KafkaTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月3日 下午4:04:24
  * @since 1.0
  */

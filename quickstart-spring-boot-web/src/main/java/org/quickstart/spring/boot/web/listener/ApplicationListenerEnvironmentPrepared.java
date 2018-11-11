@@ -14,7 +14,7 @@ import org.springframework.context.ApplicationListener;
 /**
  * ApplicationListenerEnvironmentPrepared
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年1月17日 下午12:19:37
  * @since 1.0
  */

@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * QueueConfig
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年8月3日 下午12:34:51
  * @version 2.0
  */

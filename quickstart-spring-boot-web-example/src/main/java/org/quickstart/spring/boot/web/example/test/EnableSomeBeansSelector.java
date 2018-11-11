@@ -11,7 +11,7 @@ package org.quickstart.spring.boot.web.example.test;
 /**
  * EnableSomeBeansSelector 
  *  
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年9月22日 下午11:26:01 
  * @since 1.0
  */

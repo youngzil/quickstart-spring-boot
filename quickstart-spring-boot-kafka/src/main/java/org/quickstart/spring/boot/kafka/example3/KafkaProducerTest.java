@@ -18,7 +18,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 /**
  * KafkaProducerTest kafka读写测试类
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月10日 下午1:59:23
  * @since 1.0
  */

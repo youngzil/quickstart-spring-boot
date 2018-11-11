@@ -18,7 +18,7 @@ import org.springframework.stereotype.Service;
 /**
  * Producer
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年8月3日 下午9:15:10
  * @version 2.0
  */

@@ -31,7 +31,7 @@ import org.springframework.kafka.core.ProducerFactory;
  * 
  *           调用方法发送数据： kafkaTemplate.send(topic, msg);
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月9日 下午10:37:03
  * @since 1.0
  */

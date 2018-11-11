@@ -24,7 +24,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * ApplicationStartTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年7月5日 下午5:02:25
  * @version 1.0
  */

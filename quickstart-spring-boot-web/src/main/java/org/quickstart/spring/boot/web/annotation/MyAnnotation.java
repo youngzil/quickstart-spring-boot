@@ -17,7 +17,7 @@ import java.lang.annotation.Target;
 /**
  * MyAnnotation
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年7月8日 下午5:02:54
  * @version 1.0
  */

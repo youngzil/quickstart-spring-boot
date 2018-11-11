@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 /**
  * ValueTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年8月3日 下午10:16:06
  * @version 2.0
  */

@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 /**
  * MqttConfig
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年10月12日 上午10:29:57
  * @since 1.0
  */

@@ -15,7 +15,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 /**
  * SpringBootStartApplication 
  *  
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年10月17日 下午11:00:24 
  * @since 1.0
  */

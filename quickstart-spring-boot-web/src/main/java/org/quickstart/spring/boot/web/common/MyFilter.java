@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * HTTPBasicAuthorizeAttribute
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年8月1日 下午6:36:39
  * @version 2.0
  */

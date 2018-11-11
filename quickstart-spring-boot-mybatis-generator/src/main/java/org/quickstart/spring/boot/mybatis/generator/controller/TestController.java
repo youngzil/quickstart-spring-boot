@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * TestController
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年9月19日 下午1:34:49
  * @since 1.0
  */

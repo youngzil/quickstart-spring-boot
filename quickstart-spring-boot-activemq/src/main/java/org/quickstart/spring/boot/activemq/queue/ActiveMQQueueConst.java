@@ -11,7 +11,7 @@ package org.quickstart.spring.boot.activemq.queue;
 /**
  * ActiveMQQueueConst ActiveMQ队列常量
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年10月30日 下午5:09:06
  * @since 1.0
  */

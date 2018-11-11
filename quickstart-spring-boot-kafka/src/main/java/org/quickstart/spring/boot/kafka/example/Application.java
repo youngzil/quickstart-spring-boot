@@ -24,7 +24,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 /**
  * Application
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月3日 下午5:10:42
  * @since 1.0
  */

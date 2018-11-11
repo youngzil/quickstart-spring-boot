@@ -49,7 +49,7 @@ import org.springframework.stereotype.Service;
 /**
  * ControllerInterceptor 拦截器：记录用户操作日志，检查用户是否登录……
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年7月8日 下午5:29:30
  * @version 1.0
  */

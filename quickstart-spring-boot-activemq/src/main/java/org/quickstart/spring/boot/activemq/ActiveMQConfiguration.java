@@ -20,7 +20,7 @@ import org.springframework.jms.config.SimpleJmsListenerContainerFactory;
 /**
  * ActiveMQConfiguration ActiveMQ消息队列配置类
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年10月30日 下午5:08:11
  * @since 1.0
  */
