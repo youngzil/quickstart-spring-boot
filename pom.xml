@@ -58,6 +58,7 @@
 		<module>quickstart-spring-boot-websocket-client</module>
 		<module>quickstart-spring-boot-activemq</module>
 		<module>quickstart-spring-boot-druid</module>
+		<module>quickstart-spring-boot-sqlite</module>
 	</modules>
 
 </project>
