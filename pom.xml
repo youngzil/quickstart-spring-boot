@@ -59,6 +59,7 @@
 		<module>quickstart-spring-boot-activemq</module>
 		<module>quickstart-spring-boot-druid</module>
 		<module>quickstart-spring-boot-sqlite</module>
-	</modules>
+    <module>quickstart-spring-boot-jooq</module>
+  </modules>
 
 </project>
