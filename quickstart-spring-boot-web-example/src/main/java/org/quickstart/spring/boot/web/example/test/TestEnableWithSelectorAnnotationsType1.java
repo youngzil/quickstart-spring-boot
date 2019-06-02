@@ -10,14 +10,6 @@ package org.quickstart.spring.boot.web.example.test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
-
-/**
- * TestEnableWithSelectorAnnotationsType1 
- *  
- * @author：youngzil@163.com
- * @2018年9月22日 下午11:27:13 
- * @since 1.0
- */
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +17,14 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+/**
+ * TestEnableWithSelectorAnnotationsType1
+ *
+ * @author：youngzil@163.com
+ * @2018年9月22日 下午11:27:13
+ * @since 1.0
+ */
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration

@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot.web.service;
 
 import java.util.List;
-
 import org.quickstart.spring.boot.web.entity.DemoUser;
 
 /**

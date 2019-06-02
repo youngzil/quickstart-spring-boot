@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot.web.service.impl;
 
 import java.util.List;
-
 import org.quickstart.spring.boot.web.dao.DemoDao;
 import org.quickstart.spring.boot.web.entity.DemoUser;
 import org.quickstart.spring.boot.web.service.DemoService;

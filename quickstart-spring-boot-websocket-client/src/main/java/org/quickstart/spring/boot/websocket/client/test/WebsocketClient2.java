@@ -1,11 +1,9 @@
 package org.quickstart.spring.boot.websocket.client.test;
 
 import java.net.URI;
-
 import javax.websocket.ContainerProvider;
 import javax.websocket.Session;
 import javax.websocket.WebSocketContainer;
-
 import org.quickstart.spring.boot.websocket.client.bean.WSClient;
 
 /**

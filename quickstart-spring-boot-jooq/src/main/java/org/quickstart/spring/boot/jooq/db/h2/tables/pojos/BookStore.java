@@ -5,7 +5,6 @@ package org.quickstart.spring.boot.jooq.db.h2.tables.pojos;
 
 
 import java.io.Serializable;
-
 import javax.annotation.Generated;
 
 

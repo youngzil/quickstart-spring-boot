@@ -1,15 +1,13 @@
 package org.quickstart.spring.boot;
 
+import freemarker.template.Configuration;
+import freemarker.template.Template;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
-
-import freemarker.template.Configuration;
-import freemarker.template.Template;
 
 public class FreeMarkerTest extends BasicTest {
 

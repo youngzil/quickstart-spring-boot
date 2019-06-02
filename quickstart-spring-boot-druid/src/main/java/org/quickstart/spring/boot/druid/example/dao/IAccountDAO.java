@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot.druid.example.dao;
 
 import java.util.List;
-
 import org.quickstart.spring.boot.druid.example.model.Account;
 
 /**

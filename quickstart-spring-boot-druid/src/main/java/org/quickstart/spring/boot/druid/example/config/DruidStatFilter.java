@@ -8,10 +8,9 @@
  */
 package org.quickstart.spring.boot.druid.example.config;
 
+import com.alibaba.druid.support.http.WebStatFilter;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.annotation.WebInitParam;
-
-import com.alibaba.druid.support.http.WebStatFilter;
 
 /**
  * DruidStatFilter 

@@ -21,6 +21,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version 1.0
  */
 @SpringBootApplication
+//@ComponentScan(basePackages = {"com.xx.xx.*"}, excludeFilters = @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {RedissonConfig.class}))
 public class Application {
 
     private static final Logger logger = LoggerFactory.getLogger(Application.class);

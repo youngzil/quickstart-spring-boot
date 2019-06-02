@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot.druid.example.service;
 
 import java.util.List;
-
 import org.quickstart.spring.boot.druid.example.dao.IAccountDAO;
 import org.quickstart.spring.boot.druid.example.model.Account;
 import org.springframework.beans.factory.annotation.Autowired;

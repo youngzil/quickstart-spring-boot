@@ -6,7 +6,6 @@ package org.quickstart.spring.boot.jooq.db.h2.tables.pojos;
 
 import java.io.Serializable;
 import java.sql.Date;
-
 import javax.annotation.Generated;
 
 

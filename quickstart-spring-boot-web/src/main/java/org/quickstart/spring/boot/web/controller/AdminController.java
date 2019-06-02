@@ -1,10 +1,8 @@
 package org.quickstart.spring.boot.web.controller;
 
 import java.util.Map;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import org.quickstart.spring.boot.web.result.JsonResult;
 import org.quickstart.spring.boot.web.result.ResultCode;
 import org.springframework.web.bind.annotation.GetMapping;

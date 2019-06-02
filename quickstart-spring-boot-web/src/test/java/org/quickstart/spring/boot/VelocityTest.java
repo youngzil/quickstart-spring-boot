@@ -2,7 +2,6 @@ package org.quickstart.spring.boot;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import org.apache.velocity.app.VelocityEngine;
 import org.junit.Test;
 import org.quickstart.spring.boot.web.util.XDateUtils;

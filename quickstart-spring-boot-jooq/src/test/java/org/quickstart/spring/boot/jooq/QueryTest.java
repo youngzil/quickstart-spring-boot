@@ -7,7 +7,6 @@ import static org.quickstart.spring.boot.jooq.db.h2.Tables.AUTHOR;
 import static org.quickstart.spring.boot.jooq.db.h2.Tables.BOOK;
 import static org.quickstart.spring.boot.jooq.db.h2.Tables.BOOK_STORE;
 import static org.quickstart.spring.boot.jooq.db.h2.Tables.BOOK_TO_BOOK_STORE;
-
 import org.jooq.DSLContext;
 import org.jooq.Record3;
 import org.jooq.Result;

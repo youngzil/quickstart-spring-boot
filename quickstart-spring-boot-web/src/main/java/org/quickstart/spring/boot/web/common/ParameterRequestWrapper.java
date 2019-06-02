@@ -10,7 +10,6 @@ package org.quickstart.spring.boot.web.common;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;
 

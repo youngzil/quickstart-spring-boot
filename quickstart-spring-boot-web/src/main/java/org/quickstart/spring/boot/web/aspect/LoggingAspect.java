@@ -11,9 +11,7 @@ package org.quickstart.spring.boot.web.aspect;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.Date;
-
 import javax.servlet.http.HttpServletRequest;
-
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

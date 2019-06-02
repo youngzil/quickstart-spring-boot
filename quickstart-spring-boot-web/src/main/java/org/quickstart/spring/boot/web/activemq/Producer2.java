@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot.web.activemq;
 
 import javax.jms.Destination;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.jms.core.JmsMessagingTemplate;

@@ -17,7 +17,6 @@
 package org.quickstart.spring.boot.web.activemq;
 
 import javax.jms.Queue;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;

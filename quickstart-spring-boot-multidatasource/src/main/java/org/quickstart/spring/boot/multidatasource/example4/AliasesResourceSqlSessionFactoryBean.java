@@ -1,5 +1,6 @@
 package org.quickstart.spring.boot.multidatasource.example4;
 
+import java.util.ArrayList;
 import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.logging.LogFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -7,8 +8,6 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.springframework.util.ClassUtils;
-
-import java.util.ArrayList;
 
 /**
  * 在项目中引用spring-mybatis.xml <!-- @ImportResource("classpath:spring-mybatis.xml") -->

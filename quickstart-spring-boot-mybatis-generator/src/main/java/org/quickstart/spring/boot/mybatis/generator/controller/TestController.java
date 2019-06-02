@@ -10,7 +10,6 @@ package org.quickstart.spring.boot.mybatis.generator.controller;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

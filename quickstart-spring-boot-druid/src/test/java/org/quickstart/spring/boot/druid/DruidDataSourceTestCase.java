@@ -15,17 +15,14 @@
  */
 package org.quickstart.spring.boot.druid;
 
-import javax.annotation.Resource;
-
+import static org.assertj.core.api.Assertions.assertThat;
 import com.alibaba.druid.pool.DruidDataSource;
-
+import javax.annotation.Resource;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.quickstart.spring.boot.druid.demo.DemoApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * @author lihengming [89921218@qq.com]

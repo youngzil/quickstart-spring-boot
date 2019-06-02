@@ -5,7 +5,6 @@ package org.quickstart.spring.boot.jooq.db.h2;
 
 
 import javax.annotation.Generated;
-
 import org.jooq.ForeignKey;
 import org.jooq.Identity;
 import org.jooq.UniqueKey;

@@ -7,9 +7,7 @@ package org.quickstart.spring.boot.jooq.db.h2.tables;
 import java.sql.Timestamp;
 import java.util.Arrays;
 import java.util.List;
-
 import javax.annotation.Generated;
-
 import org.jooq.Field;
 import org.jooq.ForeignKey;
 import org.jooq.Identity;

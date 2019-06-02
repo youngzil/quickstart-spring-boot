@@ -1,7 +1,6 @@
 package org.quickstart.spring.boot.web.controller;
 
 import java.util.Map;
-
 import org.quickstart.spring.boot.web.util.XDateUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

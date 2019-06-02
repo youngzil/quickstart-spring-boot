@@ -1,8 +1,11 @@
 package org.quickstart.spring.boot.websocket.client.bean;
 
-import org.springframework.stereotype.Component;
-
-import javax.websocket.*;
+import javax.websocket.ClientEndpoint;
+import javax.websocket.OnClose;
+import javax.websocket.OnError;
+import javax.websocket.OnMessage;
+import javax.websocket.OnOpen;
+import javax.websocket.Session;
 
 /**
  * Created by jack on 2017/10/25.

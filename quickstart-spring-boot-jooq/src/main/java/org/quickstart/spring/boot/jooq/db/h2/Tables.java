@@ -5,7 +5,6 @@ package org.quickstart.spring.boot.jooq.db.h2;
 
 
 import javax.annotation.Generated;
-
 import org.quickstart.spring.boot.jooq.db.h2.tables.Author;
 import org.quickstart.spring.boot.jooq.db.h2.tables.Book;
 import org.quickstart.spring.boot.jooq.db.h2.tables.BookStore;

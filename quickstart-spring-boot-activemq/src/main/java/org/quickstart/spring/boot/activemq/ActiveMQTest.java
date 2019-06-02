@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot.activemq;
 
 import java.time.Instant;
-
 import org.quickstart.spring.boot.activemq.queue.ActiveMQQueueConst;
 import org.quickstart.spring.boot.activemq.queue.ActiveMQQueueProducer;
 import org.quickstart.spring.boot.activemq.topic.ActiveMQTopicConst;

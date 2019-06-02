@@ -10,7 +10,6 @@ package org.quickstart.spring.boot.web.http;
 
 import java.io.IOException;
 import java.util.List;
-
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;

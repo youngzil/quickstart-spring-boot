@@ -5,7 +5,6 @@ package org.quickstart.spring.boot.jooq.db.h2;
 
 
 import javax.annotation.Generated;
-
 import org.jooq.Index;
 import org.jooq.OrderField;
 import org.jooq.impl.Internal;

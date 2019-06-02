@@ -1,8 +1,6 @@
 package org.quickstart.spring.boot.multidatasource.example3.domain.p;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
 
 /**
  * @author 程序猿DD

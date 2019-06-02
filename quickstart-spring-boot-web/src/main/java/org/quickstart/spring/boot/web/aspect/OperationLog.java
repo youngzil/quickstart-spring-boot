@@ -8,9 +8,8 @@
  */
 package org.quickstart.spring.boot.web.aspect;
 
-import java.util.Date;
-
 import com.fasterxml.jackson.annotation.JsonFormat;
+import java.util.Date;
 
 /**
  * OperationLog

@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot.web.controller;
 
 import java.util.List;
-
 import org.quickstart.spring.boot.web.entity.DemoUser;
 import org.quickstart.spring.boot.web.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;

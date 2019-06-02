@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot.druid.example.controller;
 
 import java.util.List;
-
 import org.quickstart.spring.boot.druid.example.model.Account;
 import org.quickstart.spring.boot.druid.example.service.IAccountService;
 import org.springframework.beans.factory.annotation.Autowired;

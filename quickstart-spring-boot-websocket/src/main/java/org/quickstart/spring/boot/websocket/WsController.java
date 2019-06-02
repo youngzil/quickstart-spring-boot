@@ -1,7 +1,6 @@
 package org.quickstart.spring.boot.websocket;
 
 import javax.annotation.Resource;
-
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessagingTemplate;

@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot.kafka.example2;
 
 import java.util.Optional;
-
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

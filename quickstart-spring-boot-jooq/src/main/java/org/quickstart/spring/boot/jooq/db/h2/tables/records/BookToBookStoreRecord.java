@@ -5,7 +5,6 @@ package org.quickstart.spring.boot.jooq.db.h2.tables.records;
 
 
 import javax.annotation.Generated;
-
 import org.jooq.Field;
 import org.jooq.Record2;
 import org.jooq.Record3;

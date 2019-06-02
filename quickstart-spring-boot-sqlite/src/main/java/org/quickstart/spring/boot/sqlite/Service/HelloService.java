@@ -1,11 +1,10 @@
 package org.quickstart.spring.boot.sqlite.Service;
 
+import java.util.List;
 import org.quickstart.spring.boot.sqlite.Mapper.HelloMapper;
 import org.quickstart.spring.boot.sqlite.Model.HelloModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class HelloService {

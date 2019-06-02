@@ -1,13 +1,12 @@
 package org.quickstart.spring.boot.websocket.client.config;
 
+import java.util.Enumeration;
 import javax.servlet.ServletContext;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.HttpSessionContext;
 import javax.websocket.HandshakeResponse;
 import javax.websocket.server.HandshakeRequest;
 import javax.websocket.server.ServerEndpointConfig;
-import java.util.Enumeration;
 
 /**
  * Created by jack on 2017/10/25.

@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot.activemq.queue;
 
 import javax.jms.Destination;
-
 import org.apache.activemq.command.ActiveMQQueue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -3,9 +3,7 @@ package org.quickstart.spring.boot.jooq;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.quickstart.spring.boot.jooq.db.h2.Tables.BOOK;
-
 import java.util.concurrent.atomic.AtomicBoolean;
-
 import org.jooq.DSLContext;
 import org.junit.After;
 import org.junit.Assert;

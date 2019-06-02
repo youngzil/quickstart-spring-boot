@@ -17,9 +17,7 @@
 package org.quickstart.spring.boot.activemq.sample;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
 import javax.jms.JMSException;
-
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;

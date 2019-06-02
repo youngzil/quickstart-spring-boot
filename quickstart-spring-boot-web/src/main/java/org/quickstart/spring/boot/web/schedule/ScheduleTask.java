@@ -10,7 +10,6 @@ package org.quickstart.spring.boot.web.schedule;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.lang3.time.FastDateFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

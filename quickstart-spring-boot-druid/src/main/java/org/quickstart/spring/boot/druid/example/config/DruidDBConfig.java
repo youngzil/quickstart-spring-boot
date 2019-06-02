@@ -8,17 +8,14 @@
  */
 package org.quickstart.spring.boot.druid.example.config;
 
+import com.alibaba.druid.pool.DruidDataSource;
 import java.sql.SQLException;
-
 import javax.sql.DataSource;
-
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
-
-import com.alibaba.druid.pool.DruidDataSource;
 
 /**
  * DruidDBConfig

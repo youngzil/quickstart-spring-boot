@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;

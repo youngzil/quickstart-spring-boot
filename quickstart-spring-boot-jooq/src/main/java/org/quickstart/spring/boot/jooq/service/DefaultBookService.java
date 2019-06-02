@@ -1,7 +1,6 @@
 package org.quickstart.spring.boot.jooq.service;
 
 import static org.quickstart.spring.boot.jooq.db.h2.Tables.BOOK;
-
 import org.jooq.DSLContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

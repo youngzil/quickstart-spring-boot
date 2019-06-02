@@ -9,7 +9,6 @@
 package org.quickstart.spring.boot.activemq;
 
 import javax.jms.ConnectionFactory;
-
 import org.quickstart.spring.boot.activemq.queue.ActiveMQQueueConst;
 import org.quickstart.spring.boot.activemq.topic.ActiveMQTopicConst;
 import org.springframework.context.annotation.Bean;

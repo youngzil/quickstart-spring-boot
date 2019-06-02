@@ -15,12 +15,12 @@ package org.quickstart.spring.boot.web.example.test;
  * @2018年9月22日 下午11:26:01 
  * @since 1.0
  */
-import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
+import org.springframework.context.annotation.Import;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
