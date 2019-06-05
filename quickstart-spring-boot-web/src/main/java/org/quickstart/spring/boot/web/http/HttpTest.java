@@ -3,7 +3,7 @@
  * 文件名：HttpTest.java
  * 版本信息：
  * 日期：2018年7月10日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.spring.boot.web.http;

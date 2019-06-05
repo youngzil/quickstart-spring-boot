@@ -3,7 +3,7 @@
  * 文件名：HelloController.java
  * 版本信息：
  * 日期：2017年7月8日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.spring.boot.web.controller;

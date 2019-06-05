@@ -20,7 +20,7 @@ import org.springframework.core.env.Environment;
 /**
  * sql查询语句是根据mysql和oracle的不同进行替换语句
  *
- * @Author guozq5 [guozq5@asiainfo.com]
+ * @Author guozq5 [guozq5@yangzl.com]
  * @Date 2018/5/23
  * @Time 11:22
  **/

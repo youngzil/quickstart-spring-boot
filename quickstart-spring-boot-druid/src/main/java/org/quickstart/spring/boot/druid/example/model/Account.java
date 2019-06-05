@@ -3,7 +3,7 @@
  * 文件名：Account.java
  * 版本信息：
  * 日期：2018年11月8日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.spring.boot.druid.example.model;

@@ -3,7 +3,7 @@
  * 文件名：KafkaTest.java
  * 版本信息：
  * 日期：2017年11月3日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.spring.boot.web.kafka;
