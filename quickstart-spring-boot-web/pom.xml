@@ -103,27 +103,24 @@
 			<version>1.9.5</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+
+		<!--<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>sqljdbc4</artifactId>
 			<version>4.0.0</version>
-		</dependency>
+		</dependency>-->
+
+    <dependency>
+      <groupId>com.microsoft.sqlserver</groupId>
+      <artifactId>mssql-jdbc</artifactId>
+      <version>8.2.2.jre8</version>
+    </dependency>
+
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
 			<version>1.0.11</version>
 		</dependency>
-
-
-
-
-
-
-
-
-
-
-
 
 		<!-- Begin of DB related -->
 		<dependency> <!-- exclude掉缺省的jdbc配置 -->
