@@ -13,6 +13,11 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <!-- Compiler settings properties -->
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
   </properties>
 
   <dependencyManagement>
@@ -55,7 +60,6 @@
 
   </dependencies>
 
-
   <modules>
     <module>quickstart-spring-boot-web</module>
     <module>quickstart-spring-boot-admin</module>
@@ -70,9 +74,28 @@
     <module>quickstart-spring-boot-druid</module>
     <module>quickstart-spring-boot-sqlite</module>
     <module>quickstart-spring-boot-jooq</module>
+    <module>quickstart-spring-boot-netty-action</module>
   </modules>
 
   <build>
+
+    <plugins>
+
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
+          <compilerVersion>${maven.compiler.source}</compilerVersion>
+          <encoding>${maven.compiler.encoding}</encoding>
+          <showDeprecation>true</showDeprecation>
+          <showWarnings>true</showWarnings>
+        </configuration>
+      </plugin>
+
+    </plugins>
+
     <pluginManagement>
       <plugins>
         <plugin>
