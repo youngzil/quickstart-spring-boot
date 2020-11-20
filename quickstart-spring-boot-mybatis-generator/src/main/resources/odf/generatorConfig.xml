@@ -5,11 +5,11 @@
   <context id="context1" >
     <plugin type="org.mybatis.generator.aicloud.codegen.mybatis3.plugin.CriteriaPackageRenamePlugin" >
      <property name="targetProject" value="../cm-osd-server/src/main/java" />
-      <property name="targetPackage" value="com.chinamobile.zj.server.criteria" />
+      <property name="targetPackage" value="com.quickstart.zj.server.criteria" />
     </plugin>
     <plugin type="org.mybatis.generator.aicloud.codegen.mybatis3.plugin.HandlerGenerator" >
       <property name="targetProject" value="../cm-osd-server/src/main/java" />
-      <property name="targetPackage" value="com.chinamobile.zj.server.handler" />
+      <property name="targetPackage" value="com.quickstart.zj.server.handler" />
       <property name="isGenerateMethod" value="true" />
     </plugin>
     <commentGenerator >
@@ -17,9 +17,9 @@
       <property name="suppressAllComments" value="true" />
     </commentGenerator>
     <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://10.11.20.101:3666/csf" userId="csf" password="csf" />
-    <javaModelGenerator targetPackage="com.chinamobile.zj.server.entity" targetProject="../cm-osd-server/src/main/java" />
+    <javaModelGenerator targetPackage="com.quickstart.zj.server.entity" targetProject="../cm-osd-server/src/main/java" />
     <sqlMapGenerator targetPackage="mybatis.mapper" targetProject="../cm-osd-server/src/main/resources" />
-    <javaClientGenerator targetPackage="com.chinamobile.zj.server.mapper" targetProject="../cm-osd-server/src/main/java" type="XMLMAPPER" />
+    <javaClientGenerator targetPackage="com.quickstart.zj.server.mapper" targetProject="../cm-osd-server/src/main/java" type="XMLMAPPER" />
     <table tableName="mobile" domainObjectName="Mobile">
     </table>
      <table tableName="package" domainObjectName="Package">

@@ -1,5 +1,5 @@
 /**
- * 项目名称：msgframe-web 
+ * 项目名称：msgtest-web
  * 文件名：DataSourceConfig.java
  * 版本信息：
  * 日期：2018年8月14日

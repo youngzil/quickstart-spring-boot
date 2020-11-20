@@ -1,5 +1,5 @@
 /**
- * 项目名称：msgframe-console
+ * 项目名称：msgtest-console
  * 文件名：DemoService.java
  * 版本信息：
  * 日期：2017年7月5日

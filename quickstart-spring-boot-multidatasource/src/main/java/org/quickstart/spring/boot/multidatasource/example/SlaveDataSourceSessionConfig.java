@@ -1,5 +1,5 @@
 /**
- * 项目名称：msgframe-web 
+ * 项目名称：msgtest-web
  * 文件名：MybatisDbAConfig.java
  * 版本信息：
  * 日期：2018年8月14日
@@ -32,8 +32,8 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
  * @since 1.0
  */
 @Configuration
-@MapperScan(basePackages = {"com.ai.aif.msgframe.dao"})
-// @MapperScan(basePackages = "com.ai.aif.msgframe.dao", sqlSessionTemplateRef = "primarySqlSessionTemplate",sqlSessionFactoryRef = "primarySqlSessionFactory")
+@MapperScan(basePackages = {"com.ai.quickstart.dao"})
+// @MapperScan(basePackages = "com.ai.quickstart.dao", sqlSessionTemplateRef = "primarySqlSessionTemplate",sqlSessionFactoryRef = "primarySqlSessionFactory")
 public class SlaveDataSourceSessionConfig {
 
     @Autowired
@@ -53,7 +53,7 @@ public class SlaveDataSourceSessionConfig {
     public SqlSessionFactory sqlSessionFactory1() throws Exception {
         SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
         factoryBean.setDataSource(ds1); // 使用titan数据源, 连接titan库
-        factoryBean.setTypeAliasesPackage("com.ai.aif.msgframe.entity");
+        factoryBean.setTypeAliasesPackage("com.ai.quickstart.entity");
         factoryBean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath*:mapper/*.xml"));
         return factoryBean.getObject();
     }

@@ -56,7 +56,7 @@
 				</dependencies>
 
 				<!-- <configuration> -->
-				<!-- <mainClass>com.ai.aif.msgframe.app.ApplicationStarter</mainClass> -->
+				<!-- <mainClass>com.ai.quickstart.app.ApplicationStarter</mainClass> -->
 				<!-- <addResources>false</addResources> -->
 				<!-- <executable>true</executable> -->
 				<!-- </configuration> -->

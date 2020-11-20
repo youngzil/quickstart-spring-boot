@@ -1,5 +1,5 @@
 /**
- * 项目名称：msgframe-console 
+ * 项目名称：msgtest-console
  * 文件名：LoggingAspect.java
  * 版本信息：
  * 日期：2018年4月11日
@@ -40,7 +40,7 @@ public class LoggingAspect {
     // @Autowired
     // private OperationLogService operationLogService;
 
-    @Pointcut("@annotation(com.ai.aif.msgframe.aspect.annotation.Logger)")
+    @Pointcut("@annotation(com.ai.quickstart.aspect.annotation.Logger)")
     public void loggerMethodPointcut() {}
 
     /**
@@ -55,8 +55,8 @@ public class LoggingAspect {
      * @2018年4月11日 下午5:32:23
      * @since 1.0
      */
-    // @Around("execution(* com.ai.aif.msgframe.service..*.*(..))")
-    // @Around("execution(* com.ai.aif.msgframe..*.*(..)) && @annotation(org.springframework.web.bind.annotation.RequestMapping) ")
+    // @Around("execution(* com.ai.quickstart.service..*.*(..))")
+    // @Around("execution(* com.ai.quickstart..*.*(..)) && @annotation(org.springframework.web.bind.annotation.RequestMapping) ")
     @Around("loggerMethodPointcut()")
     public Object logServiceMethodAccess(ProceedingJoinPoint joinPoint) throws Throwable {
         long start = System.currentTimeMillis();

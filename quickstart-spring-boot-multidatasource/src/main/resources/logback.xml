@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-	<property name="LOG_FILE" value="${user.home}/logs/msgframe/spring-boot.log" />
+	<property name="LOG_FILE" value="${user.home}/logs/msgtest/spring-boot.log" />
 	<include resource="org/springframework/boot/logging/logback/base.xml" /> <!-- logback 提供的基本配置 -->
 
 	<!-- 控制台 -->
@@ -16,12 +16,12 @@
 	<!-- 记录到文件 (每天一个文件) -->
 	<appender name="FILE"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>${user.home}/logs/msgframe/msgframe-console.log</file><!-- 
+		<file>${user.home}/logs/msgtest/msgtest-console.log</file><!--
 			最新的log文件名 -->
 		<append>true</append>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!-- 历史文件名 -->
-			<fileNamePattern>${user.home}/logs/msgframe/msgframe-console-%d{yyyy-MM-dd}.%i.log
+			<fileNamePattern>${user.home}/logs/msgtest/msgtest-console-%d{yyyy-MM-dd}.%i.log
 			</fileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
 				<maxFileSize>104857600</maxFileSize>
@@ -41,7 +41,7 @@
 		/> </root> -->
 
 	<!-- 将上面两个 appender 关联到我们的项目 -->
-	<logger name="com.ai.aif.msgframe" level="debug"
+	<logger name="com.ai.quickstart" level="debug"
 		additivity="false"> <!-- name 是项目包名，为了方便调试，输出 DEBUG 级别及其以上的log -->
 		<appender-ref ref="CONSOLE" />
 		<appender-ref ref="FILE" />

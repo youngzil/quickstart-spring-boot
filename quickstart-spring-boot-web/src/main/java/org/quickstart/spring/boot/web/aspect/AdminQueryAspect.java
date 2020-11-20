@@ -1,5 +1,5 @@
 /**
- * 项目名称：msgframe-console4 
+ * 项目名称：msgtest-console4
  * 文件名：AdminQueryAspect.java
  * 版本信息：
  * 日期：2017年8月2日
@@ -34,9 +34,9 @@ public class AdminQueryAspect {
     public AdminQueryAspect() {}
 
     /**
-     * 定义拦截规则：拦截com.ai.aif.msgframe.service包下面的所有类中，有@AdminQueryMethod注解的方法。
+     * 定义拦截规则：拦截com.ai.quickstart.service包下面的所有类中，有@AdminQueryMethod注解的方法。
      */
-    @Pointcut("execution(* com.ai.aif.msgframe.service.impl..*.*(..)) && @annotation(com.ai.aif.msgframe.aspect.annotation.AdminQueryMethod)")
+    @Pointcut("execution(* com.ai.quickstart.service.impl..*.*(..)) && @annotation(com.ai.quickstart.aspect.annotation.AdminQueryMethod)")
     public void serviceAdminQueryMethodPointcut() {}
 
     @Around("serviceAdminQueryMethodPointcut()")

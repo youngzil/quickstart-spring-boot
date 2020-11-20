@@ -1,5 +1,5 @@
 /**
- * 项目名称：msgframe-console4 
+ * 项目名称：msgtest-console4
  * 文件名：AdminQueryMethod.java
  * 版本信息：
  * 日期：2017年8月2日

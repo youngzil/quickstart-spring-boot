@@ -1,5 +1,5 @@
 /**
- * 项目名称：msgframe-console3 
+ * 项目名称：msgtest-console3
  * 文件名：WebSecurityConfig.java
  * 版本信息：
  * 日期：2017年7月12日
@@ -42,7 +42,7 @@ public class WebSecurityConfig extends WebMvcConfigurerAdapter {
                 .excludePathPatterns("/login")//
                 .excludePathPatterns("/user/register")//
                 .excludePathPatterns("/user/updatePassword")//
-                .excludePathPatterns("/api/getMsgframeConfig")//
+                .excludePathPatterns("/api/getmsgtestConfig")//
                 .excludePathPatterns("/openapi/createLessee")//
                 // excludePathPatterns("/**").
 

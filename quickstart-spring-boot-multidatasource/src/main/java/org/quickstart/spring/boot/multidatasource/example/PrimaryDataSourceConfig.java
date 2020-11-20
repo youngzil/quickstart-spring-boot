@@ -1,5 +1,5 @@
 /**
- * 项目名称：msgframe-web 
+ * 项目名称：msgtest-web
  * 文件名：DataSourceConfig.java
  * 版本信息：
  * 日期：2018年8月15日
@@ -31,8 +31,8 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
  * @since 1.0
  */
 @Configuration
-@MapperScan(basePackages = {"com.ai.aif.msgframe.dao"})
-// @MapperScan(basePackages = "com.ai.aif.msgframe.dao", sqlSessionTemplateRef = "primarySqlSessionTemplate",sqlSessionFactoryRef = "primarySqlSessionFactory")
+@MapperScan(basePackages = {"com.ai.quickstart.dao"})
+// @MapperScan(basePackages = "com.ai.quickstart.dao", sqlSessionTemplateRef = "primarySqlSessionTemplate",sqlSessionFactoryRef = "primarySqlSessionFactory")
 public class PrimaryDataSourceConfig {
 
     /* @Bean
@@ -59,7 +59,7 @@ public class PrimaryDataSourceConfig {
     public SqlSessionFactory sqlSessionFactory(@Qualifier("primaryDataSource") DataSource dataSource) throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
-        bean.setTypeAliasesPackage("com.ai.aif.msgframe.entity");
+        bean.setTypeAliasesPackage("com.ai.quickstart.entity");
         bean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath*:mapper/*.xml"));
 
         ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();

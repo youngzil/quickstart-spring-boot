@@ -16,11 +16,11 @@
 
 		<!-- <plugin type="org.mybatis.generator.aicloud.codegen.mybatis3.plugin.CriteriaPackageRenamePlugin"> -->
 		<!-- <property name="targetProject" value="../cm-osd-server/src/main/java" /> -->
-		<!-- <property name="targetPackage" value="com.chinamobile.zj.server.criteria" /> -->
+		<!-- <property name="targetPackage" value="com.quickstart.zj.server.criteria" /> -->
 		<!-- </plugin> -->
 		<!-- <plugin type="org.mybatis.generator.aicloud.codegen.mybatis3.plugin.HandlerGenerator"> -->
 		<!-- <property name="targetProject" value="../cm-osd-server/src/main/java" /> -->
-		<!-- <property name="targetPackage" value="com.chinamobile.zj.server.handler" /> -->
+		<!-- <property name="targetPackage" value="com.quickstart.zj.server.handler" /> -->
 		<!-- <property name="isGenerateMethod" value="true" /> -->
 		<!-- </plugin> -->
 

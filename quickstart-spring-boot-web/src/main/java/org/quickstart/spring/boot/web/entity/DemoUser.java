@@ -1,5 +1,5 @@
 /**
- * 项目名称：msgframe-console3 
+ * 项目名称：msgtest-console3
  * 文件名：DemoUser.java
  * 版本信息：
  * 日期：2017年7月5日

@@ -1,5 +1,5 @@
 /**
- * 项目名称：msgframe-core 
+ * 项目名称：msgtest-core 
  * 文件名：IPassResponseData.java
  * 版本信息：
  * 日期：2018年7月10日
